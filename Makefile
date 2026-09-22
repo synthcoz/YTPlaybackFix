@@ -3,8 +3,6 @@ ARCHS = arm64
 
 include $(THEOS)/makefiles/common.mk
 
-include $(THEOS)/makefiles/common.mk
-
 TWEAK_NAME = YTPlaybackFix
 
 YTPlaybackFix_FILES = Refresh.xm YouFixPlaybackIssues.xm Settings.xm
